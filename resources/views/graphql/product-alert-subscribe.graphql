@@ -1,0 +1,5 @@
+mutation ProductAlertSubscribe($product_id: Int!, $email: String!){
+  ProductAlertNotifyInStock (input: {product_id: $product_id, email: $email}) {
+    message
+  }
+}

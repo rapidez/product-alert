@@ -1,0 +1,29 @@
+{
+    "name": "rapidez/product-alert",
+    "description": "Rapidez Product Alert",
+    "keywords": [
+        "rapidez"
+    ],
+    "homepage": "https://rapidez.io",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "rapidez/core": "*",
+        "rapidez/account": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rapidez\\ProductAlert\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rapidez\\ProductAlert\\ProductAlertServiceProvider"
+            ]
+        }
+    }
+}
