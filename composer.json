@@ -8,7 +8,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "rapidez/core": "*",
+        "php": "^8.0|^8.1",
+        "rapidez/core": "~0.54",
         "rapidez/account": "*"
     },
     "autoload": {
