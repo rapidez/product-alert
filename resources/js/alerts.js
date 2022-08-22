@@ -9,6 +9,6 @@ document.addEventListener('turbolinks:load', () => {
         }
 
         window.axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.token}`;
-        await window.axios.post('/api/alerts').then((res) => localStorage.alerts = res.data)
+        await window.axios.post('/api/product-alerts').then((res) => localStorage.alerts = res.data)
     }
 });
