@@ -10,9 +10,10 @@ class ProductAlertServiceProvider extends ServiceProvider
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'rapidez-product-alert');
 
-
         $this->publishes([
             __DIR__.'/../resources/views' => resource_path('views/vendor/rapidez-product-alert'),
         ], 'views');
+
+        $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
     }
 }
