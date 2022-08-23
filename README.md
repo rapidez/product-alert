@@ -11,6 +11,10 @@ You need to have the [Magento 2 Product Alert GraphQl module](https://github.com
 ```
 composer require rapidez/product-alert
 ```
+Add the scripts file to your `app.js`:
+```
+require('Vendor/rapidez/product-alert/resources/js/alerts')
+```
 And include the blade file where needed (`addtocart.blade.php`):
 ```
 @include('rapidez-product-alert::subscribe-form', ['product_id' => $product->id])
