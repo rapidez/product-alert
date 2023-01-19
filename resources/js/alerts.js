@@ -1,4 +1,4 @@
-document.addEventListener('turbolinks:load', () => {
+document.addEventListener('turbo:load', () => {
     window.app.$on('logged-in', getAlerts);
     window.app.$on('alerts-updated', getAlerts);
     window.app.$on('logout', () => localStorage.removeItem('alerts'));
