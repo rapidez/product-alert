@@ -8,22 +8,24 @@ You need to have the [Magento 2 Product Alert GraphQl module](https://github.com
 
 ## Installation
 
-```
+```bash
 composer require rapidez/product-alert
 ```
-Add the scripts file to your `app.js`:
+
+Make sure this exists in your `app.js`:
+```js
+import.meta.glob(['Vendor/rapidez/*/resources/js/app.js'], { eager: true });
 ```
-require('Vendor/rapidez/product-alert/resources/js/alerts')
-```
+
 And include the blade file where needed (`addtocart.blade.php`):
-```
+```blade
 @include('rapidez-product-alert::subscribe-form', ['product_id' => $product->id])
 ```
 
 ### Views
 
 You can publish the views with:
-```
+```bash
 php artisan vendor:publish --provider="Rapidez\ProductAlert\ProductAlertServiceProvider" --tag=views
 ```
 
