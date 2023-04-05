@@ -1,31 +1,38 @@
 # Changelog 
 
-## 0.4.1 - 2023-01-19
+[Unreleased changes](https://github.com/rapidez/product-alert/compare/0.5.0...master)
+## [0.5.0](https://github.com/rapidez/product-alert/releases/tag/0.5.0) - 2023-04-05
 
-### Fixed
+#### Added
+
+- Add package.js, update readme (#6)
+
+## [0.4.1](https://github.com/rapidez/product-alert/releases/tag/0.4.1) - 2023-01-19
+
+#### Fixed
 
 - Prevent "Attempt to read customer_id on null" (#4)
 
-## 0.4.0 - 2023-01-19
+## [0.4.0](https://github.com/rapidez/product-alert/releases/tag/0.4.0) - 2023-01-19
 
-### Changed
+#### Changed
 
 - Replace turbolinks with turbo (#5)
 - Add changelog action (3299c6b)
 
-## 0.3.0 - 2022-08-23
+## [0.3.0](https://github.com/rapidez/product-alert/releases/tag/0.3.0) - 2022-08-23
 
-### Added
+#### Added
 
 - Ability to get all alerts of a customer to check if customer is subscribed (#3)
 
-## 0.2.0 - 2022-04-11
+## [0.2.0](https://github.com/rapidez/product-alert/releases/tag/0.2.0) - 2022-04-11
 
-### Changed
+#### Changed
 
 - Laravel 9 compatibility (07c6ca5)
 
-## 0.1.0 - 2021-11-26
+## [0.1.0](https://github.com/rapidez/product-alert/releases/tag/0.1.0) - 2021-11-26
 
 Initial release
 
