@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/product-alert/compare/0.5.0...master)
+[Unreleased changes](https://github.com/rapidez/product-alert/compare/0.5.1...master)
+## [0.5.1](https://github.com/rapidez/product-alert/releases/tag/0.5.1) - 2023-04-25
+
+#### Fixed
+
+- Filename typo (e96a3cc)
+
 ## [0.5.0](https://github.com/rapidez/product-alert/releases/tag/0.5.0) - 2023-04-05
 
 #### Added
