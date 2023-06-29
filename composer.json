@@ -9,8 +9,8 @@
     "prefer-stable": true,
     "require": {
         "php": "^8.0|^8.1",
-        "rapidez/core": "~0.77",
-        "rapidez/account": "*"
+        "rapidez/core": ">=0.90.1 <1.0.0|^1.0",
+        "rapidez/account": ">=0.13.3"
     },
     "autoload": {
         "psr-4": {
