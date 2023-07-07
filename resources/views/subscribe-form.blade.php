@@ -1,4 +1,4 @@
-<graphql-mutation v-if="user" v-cloak query="@include('rapidez-product-alert::graphql.product-alert-subscribe')" :variables='{product_id: {{ $product_id }}, email: user.email}' :callback="() => {
+<graphql-mutation v-if="user?.email" v-cloak query="@include('rapidez-product-alert::graphql.product-alert-subscribe')" :variables='{product_id: {{ $product_id }}, email: user.email}' :callback="() => {
     window.app.$emit('alerts-updated')
 }" :notify="{message: '@lang('We will let you know once this product is back in stock')', type: 'success'}">
     <div slot-scope="{ mutate }">
