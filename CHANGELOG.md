@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/product-alert/compare/0.5.2...master)
+[Unreleased changes](https://github.com/rapidez/product-alert/compare/0.5.3...master)
+## [0.5.3](https://github.com/rapidez/product-alert/releases/tag/0.5.3) - 2023-07-11
+
+### Fixed
+
+- Update user check for 1.x compatibility (#8)
+
 ## [0.5.2](https://github.com/rapidez/product-alert/releases/tag/0.5.2) - 2023-07-04
 
 ### Fixed
