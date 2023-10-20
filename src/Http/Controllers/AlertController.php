@@ -10,8 +10,9 @@ class AlertController extends Controller
 {
     public function __invoke(Request $request)
     {
-        abort_if(!$request->header('authorization'), 401);
-        $customer = DB::table('oauth_token')->select('customer_id')->where('token', str_replace('Bearer ', '', $request->header('authorization')))->first();
+        abort_unless($request->bearerToken(), 401);
+
+        $customer = DB::table('oauth_token')->select('customer_id')->where('token', $request->bearerToken())->first();
         abort_if(!$customer?->customer_id, 401);
         $alerts = DB::table('product_alert_stock')->select('product_id')->where('customer_id', $customer->customer_id)->get();
 
