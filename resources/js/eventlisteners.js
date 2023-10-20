@@ -8,7 +8,6 @@ document.addEventListener('turbo:load', () => {
             return;
         }
 
-        window.axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.token}`;
-        await window.axios.post(window.url('/api/product-alerts')).then((res) => localStorage.alerts = res.data)
+        await window.axios.post(window.url('/api/product-alerts'), {}, { headers: { Authorization: window.magentoUser.defaults.headers.common['Authorization'] }}).then((res) => localStorage.alerts = res.data)
     }
 });
