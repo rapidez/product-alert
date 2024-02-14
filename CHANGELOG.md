@@ -1,6 +1,16 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/product-alert/compare/0.5.3...master)
+[Unreleased changes](https://github.com/rapidez/product-alert/compare/0.6.0...master)
+## [0.6.0](https://github.com/rapidez/product-alert/releases/tag/0.6.0) - 2024-02-14
+
+### Added
+
+- Use authorization header from core if it is filled (#9)
+
+### Changed
+
+- Flexibility refactor for extensibility with slots and partials (#10)
+
 ## [0.5.3](https://github.com/rapidez/product-alert/releases/tag/0.5.3) - 2023-07-11
 
 ### Fixed
