@@ -8,9 +8,9 @@
         @if($subscribe->isNotEmpty())
             {{ $subscribe }}
         @else
-            <x-rapidez::button v-on:click="mutate" class="flex items-center justify-center w-full" dusk="product-alert-subscribe">
+            <x-rapidez::button v-on:click="mutate" dusk="product-alert-subscribe" :attributes="$subscribe->attributes->class('flex items-center justify-center w-full')">
                 <x-heroicon-o-bell class="h-5 w-5 mr-1"/>
-                <span class="mr-2">@lang('Notify me')</span>
+                <span>@lang('Notify me')</span>
             </x-rapidez::button>        
         @endif
     </div>
@@ -19,7 +19,7 @@
     @if($login->isNotEmpty())
         {{ $login }}
     @else
-        <x-rapidez::button :href="route('account.login')" class="flex items-center justify-center" dusk="product-alert-login">
+        <x-rapidez::button :href="route('account.login')" dusk="product-alert-login" :attributes="$login->attributes->class('flex items-center justify-center w-full')">
             <x-heroicon-o-bell class="h-5 w-5 mr-1"/>
             <span>@lang('Notify me')</span>
         </x-rapidez::button>
