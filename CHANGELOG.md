@@ -1,6 +1,13 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/product-alert/compare/0.6.0...master)
+[Unreleased changes](https://github.com/rapidez/product-alert/compare/2.0.0...master)
+## [2.0.0](https://github.com/rapidez/product-alert/releases/tag/2.0.0) - 2024-05-22
+
+### Added
+
+- Rapidez v2 support (#11)
+- Rapidez v2 compatibility (#12)
+
 ## [0.6.0](https://github.com/rapidez/product-alert/releases/tag/0.6.0) - 2024-02-14
 
 ### Added
