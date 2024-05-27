@@ -14,7 +14,7 @@ composer require rapidez/product-alert
 
 And include the blade file where needed (`addtocart.blade.php`):
 ```blade
-@include('rapidez-product-alert::subscribe-form', ['product_id' => $product->id])
+@include('rapidez-product-alert::subscribe-form', ['product_id' => $product->entity_id])
 ```
 
 ### Views
