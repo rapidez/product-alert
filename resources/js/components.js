@@ -1,0 +1,1 @@
+Vue.component('check-alerts', () => import('./components/CheckAlerts.vue'))
