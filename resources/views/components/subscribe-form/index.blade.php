@@ -7,7 +7,7 @@
             query="@include('rapidez-product-alert::graphql.product-alert-subscribe')"
             :variables='{product_id: {{ $product_id }}, email: user.email}'
             :callback="() => { window.app.$emit('alerts-updated') }"
-            :notify="{message: !checkAlerts.alerts?.includes({{ $product_id }}) ? '@lang('We will let you know once this product is back in stock')' : '@lang('You have succesfully unsubscribed from this product')', type: 'success'}"
+            :notify="{message: !checkAlerts.alerts?.includes({{ (int)$product_id }}) ? '@lang('We will let you know once this product is back in stock')' : '@lang('You have succesfully unsubscribed from this product')', type: 'success'}"
     >
         <div slot-scope="{ mutate }">
             @if($subscribe->isNotEmpty())

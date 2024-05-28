@@ -6,8 +6,10 @@ export default {
         return this.$scopedSlots.default(this)
     },
 
-    data: () => ({
-        alerts: alerts.value
-    })
+    computed:{
+        alerts: () => {
+            return alerts.value
+        }
+    }
 }
 </script>
