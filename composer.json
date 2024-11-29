@@ -9,7 +9,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^8.0|^8.1",
-        "rapidez/core": "^2.0|^3.0",
+        "rapidez/core": "^2.8|^3.0",
         "rapidez/account": ">=0.13.3"
     },
     "autoload": {
