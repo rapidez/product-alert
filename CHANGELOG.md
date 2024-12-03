@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/product-alert/compare/2.1.0...master)
+[Unreleased changes](https://github.com/rapidez/product-alert/compare/2.1.1...master)
+## [2.1.1](https://github.com/rapidez/product-alert/releases/tag/2.1.1) - 2024-12-03
+
+### Changed
+
+- Listen to vue:loaded instead (#15)
+
 ## [2.1.0](https://github.com/rapidez/product-alert/releases/tag/2.1.0) - 2024-05-28
 
 ### Changed
