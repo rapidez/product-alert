@@ -1,7 +1,7 @@
 import { clear, refresh } from './stores/useAlerts'
 
 document.addEventListener('vue:loaded', () => {
-    window.app.$on('logged-in', refresh);
-    window.app.$on('alerts-updated', refresh);
-    window.app.$on('logout', clear);
+    window.$on('logged-in', refresh);
+    window.$on('alerts-updated', refresh);
+    window.$on('logout', clear);
 });

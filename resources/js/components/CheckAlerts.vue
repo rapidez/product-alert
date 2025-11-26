@@ -3,11 +3,11 @@ import { alerts } from '../stores/useAlerts'
 
 export default {
     render() {
-        return this.$scopedSlots.default(this)
+        return this?.$slots?.default?.(this) ?? null
     },
 
     computed:{
-        alerts: () => {
+        alerts() {
             return alerts.value
         }
     }
