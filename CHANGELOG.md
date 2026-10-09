@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/product-alert/compare/2.1.1...master)
+[Unreleased changes](https://github.com/rapidez/product-alert/compare/...2.x)
+## [2.1.2](https://github.com/rapidez/product-alert/releases/tag/2.1.2) - 2026-10-09
+
+### Fixed
+
+- Only return active stock alerts (#19)
+
 ## [2.1.1](https://github.com/rapidez/product-alert/releases/tag/2.1.1) - 2024-12-03
 
 ### Changed
