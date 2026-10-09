@@ -1,6 +1,12 @@
 # Changelog 
 
-[Unreleased changes](https://github.com/rapidez/product-alert/compare/4.0.0...master)
+[Unreleased changes](https://github.com/rapidez/product-alert/compare/...4.x)
+## [4.0.1](https://github.com/rapidez/product-alert/releases/tag/4.0.1) - 2026-10-09
+
+### Fixed
+
+- Only return active stock alerts (#18)
+
 ## [4.0.0](https://github.com/rapidez/product-alert/releases/tag/4.0.0) - 2025-06-05
 
 ### Added
