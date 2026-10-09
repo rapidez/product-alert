@@ -12,6 +12,7 @@ class AlertController extends Controller
     {
         return DB::table('product_alert_stock')
             ->where('customer_id', auth()->user()->entity_id)
+            ->where('status', 0)
             ->pluck('product_id') ?? [];
     }
 }
